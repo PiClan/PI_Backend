@@ -19,6 +19,13 @@ class User extends Authenticatable
     protected $fillable = [
         'name',
         'email',
+        'ap_pat',
+        'ap_mat',
+        'sexo',
+        'dni',
+        'fecha_nac',
+        'telefono',
+        'ubigeo_id',
         'password',
     ];
 
